@@ -383,7 +383,7 @@ a img.aligncenter {
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: #C62828;
+	background: #eb4164;
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -406,22 +406,28 @@ a img.aligncenter {
 }
 /**/
 
-
+.loggo{
+    height: 15%;
+    width: 15%;
+    margin-bottom: 200px;
+}
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 8px 15px;
-	font-size: 16px;
+    font-size: 16px;
+    margin-left: 5px;
+    color: white;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-	background: RGB(244, 110, 173);
-	color: #fffff;
+	background-color: #eb4164;
+	color: white;
 	border-radius: 2px;
 	font-size: 16px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
-	background: RGB(244, 110, 173);
-	color: #ffffff;
+	background-color: #eb4164;
+	color: white;
 	font-weight: 600;
 	border-radius: 2px;
 }
@@ -457,10 +463,10 @@ a img.aligncenter {
 }
 
 .header_style_01 {
-    background-color: #000000;
+    background-color: black;
     display: block;
     left: 0;
-    padding: 10px 0px !important;
+    padding: 20px 0px !important;
     position: absolute;
     right: 0;
     top: 0;
@@ -481,7 +487,7 @@ a img.aligncenter {
 }
 
 .header_style_01 .navbar-brand {
-    padding: 2px 15px 0 15px;
+    /* padding: 2px 15px 0 15px; */
 	height: auto;
 }
 
@@ -1514,7 +1520,7 @@ body.app_version .customwidget li i{
     border-radius: 6px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #AD1457;
+    background-color: #eb4164;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -1777,7 +1783,7 @@ body.app_version .bootstrap-select .btn-light:hover{
 }
 
 .footer {
-    padding: 90px 0 80px !important;
+    padding: 30px 0 !important;
     color: #999;
     background-color: #1f1f1f;
 }
@@ -1856,7 +1862,7 @@ body.app_version .bootstrap-select .btn-light:hover{
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 50px 60px;
+    padding: 30px 20px;
     overflow: hidden;
 }
 
@@ -2166,7 +2172,7 @@ body.app_version .dev-list .widget-title small{
      left: 0;
      margin: 0px;
      height: 2px;
-     background: #AD1457;
+     background: #f5a587;
      visibility: hidden;
      transition: all 0.45s ease;
      -webkit-transition: all 0.45s ease;
@@ -2177,6 +2183,7 @@ body.app_version .dev-list .widget-title small{
     left:0;
     visibility: visible;
 }
+ 
 
  .highlight span {
      text-align: center;
@@ -2307,7 +2314,7 @@ body.app_version .dev-list .widget-title small{
      -moz-border-radius: 50%;
 }
  .highlight.active .highlight-title span {
-    background: crimson;
+    background: #f5a587;
      webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
@@ -2317,4 +2324,13 @@ body.app_version .dev-list .widget-title small{
     -webkit-animation: sonarEffect 1.3s ease-out 75ms;
     -moz-animation: sonarEffect 1.3s ease-out 75ms;
     animation: sonarEffect 1.3s ease-out 75ms;
+}
+.videodiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+video{
+    border: none;
+    width: 80vw;
 }
